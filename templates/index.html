@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/flask.css">
+    <meta charset="UTF-8">
+    <title>Press Me</title>
+</head>
+<body>
+{%  include 'heading.html' %}
+<body bgcolor="white">
+    <form action="/" method="post">
+        <div id="div1" class="wrapper1">
+            <input id="one" type="submit" name="submit" value="leftForward" class="fw-big-btn">
+            <input id="two" type="submit" name="submit" value="rightForward" class="fw-big-btn">
+        </div>
+        <div id="div2" class="wrapper2">
+            <input id="three" type="submit" name="submit" value="leftBack" class="bk-big-btn">
+            <input id="four" type="submit" name="submit" value="rightBack" class="bk-big-btn">
+        </div>
+    </form>
+{%  include 'footer.html' %}
+</body>
+</html>
